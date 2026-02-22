@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Módulos para Estética y Belleza - Ediciones FP</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ee2b8c",
+                        "background-light": "#f8f6f7",
+                        "background-dark": "#221019",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .book-shadow {
+            box-shadow: 10px 10px 20px rgba(0,0,0,0.15), -1px 0 2px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+        .book-shadow:hover {
+            transform: translateY(-5px) rotateY(-5deg);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<!-- Header / Navigation -->
+<header class="flex items-center justify-between border-b border-solid border-primary/10 bg-white/80 backdrop-blur-md sticky top-0 z-50 px-6 md:px-20 py-4">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-3 text-primary">
+<span class="material-symbols-outlined text-3xl font-bold">menu_book</span>
+<h2 class="text-slate-900 dark:text-slate-100 text-xl font-extrabold tracking-tight">Ediciones FP</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-6">
+<a class="text-slate-600 hover:text-primary text-sm font-semibold transition-colors" href="#">Grados</a>
+<a class="text-slate-600 hover:text-primary text-sm font-semibold transition-colors" href="#">Módulos</a>
+<a class="text-slate-600 hover:text-primary text-sm font-semibold transition-colors" href="#">Ofertas</a>
+<a class="text-slate-600 hover:text-primary text-sm font-semibold transition-colors" href="#">Contacto</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden sm:flex items-center bg-slate-100 rounded-lg px-3 py-1.5">
+<span class="material-symbols-outlined text-slate-400 text-xl">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-sm w-40" placeholder="Buscar módulos..." type="text"/>
+</div>
+<button class="bg-primary text-white px-5 py-2 rounded-lg text-sm font-bold flex items-center gap-2 hover:bg-primary/90 transition-all">
+<span class="material-symbols-outlined text-lg">account_circle</span>
+                    Mi Cuenta
+                </button>
+</div>
+</header>
+<main class="flex-1 max-w-7xl mx-auto w-full px-6 md:px-10 py-8">
+<!-- Breadcrumbs -->
+<nav class="flex items-center gap-2 text-sm text-slate-500 mb-8">
+<a class="hover:text-primary" href="#">Inicio</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<a class="hover:text-primary" href="#">Imagen Personal</a>
+<span class="material-symbols-outlined text-sm">chevron_right</span>
+<span class="text-slate-900 font-medium">Técnico en Estética y Belleza</span>
+</nav>
+<!-- Hero Section -->
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+<div class="space-y-6">
+<span class="inline-block bg-primary/10 text-primary px-4 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Ciclo Formativo Grado Medio</span>
+<h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-[1.1]">Técnico en Estética y Belleza</h1>
+<p class="text-lg text-slate-600 leading-relaxed">
+                        Optimiza la gestión de tus clases con nuestros cuadernos de seguimiento especializados. Diseñados específicamente para cada módulo del currículo oficial, facilitando la evaluación continua y el registro de prácticas para profesores y alumnos.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<div class="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm border border-slate-100">
+<span class="material-symbols-outlined text-primary">verified</span>
+<span class="text-sm font-semibold">Formato Oficial</span>
+</div>
+<div class="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm border border-slate-100">
+<span class="material-symbols-outlined text-primary">local_shipping</span>
+<span class="text-sm font-semibold">Envío Prime</span>
+</div>
+<div class="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm border border-slate-100">
+<span class="material-symbols-outlined text-primary">security</span>
+<span class="text-sm font-semibold">Compra Segura</span>
+</div>
+</div>
+</div>
+<div class="relative aspect-video rounded-2xl overflow-hidden shadow-2xl">
+<div class="absolute inset-0 bg-gradient-to-tr from-primary/40 to-transparent z-10"></div>
+<img alt="Estética y Belleza" class="w-full h-full object-cover" data-alt="Professional beauty aesthetician working in a modern spa clinic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCSEsadGrNQfeed3fdrHZ_2X14mTD3xRbT2weUE_zDk0z4fXTVzvl_AJe0PVk9mzFd29brVY60mlZ-75Hzyiq4FED_LQ5C5k6OkU-0H6t5TP9EPtLbzvIrY2SSmPWBFYBlbbNREQOOUXh01AAEsP5VTuf45EK8AkFGoY2DxDrFT1IFyCw4onxUJpCgOSFKbI0HqxcRl1OiCBUQLojTuVgD1WcBjxQbf3G2C4Sc2RzxAK_1F2Jd0yFkbR6_FgAoeNdWEJRIchqBmLBw"/>
+</div>
+</section>
+<!-- Modules Grid -->
+<div class="space-y-20">
+<!-- Module 1: Perfumería -->
+<section>
+<div class="flex items-center gap-4 mb-8 border-l-4 border-primary pl-4">
+<h2 class="text-2xl md:text-3xl font-bold text-slate-900">Perfumería y Cosmética de Estética</h2>
+<span class="bg-slate-200 text-slate-600 text-[10px] font-bold px-2 py-0.5 rounded tracking-widest uppercase">MÓDULO 01</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Product Card 1 -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col items-center text-center">
+<div class="w-48 h-64 bg-slate-100 rounded-sm mb-6 book-shadow relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-pink-100 to-pink-200 flex flex-col items-center justify-center p-4">
+<span class="material-symbols-outlined text-5xl text-primary/40 mb-2">water_drop</span>
+<p class="text-[10px] font-bold text-primary uppercase tracking-tighter">Cuaderno de Seguimiento</p>
+<p class="text-sm font-extrabold text-slate-800 leading-tight mt-1">PERFUMERÍA Y COSMÉTICA</p>
+<div class="mt-4 bg-primary text-white text-[10px] px-2 py-0.5 rounded-full">20 ALUMNOS</div>
+</div>
+<img alt="Cover" class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-multiply" data-alt="Abstract pink cosmetic texture with golden highlights for book cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVNdBSJ2J7sc4CMHLDyCu92OB638PM4Tp_gM47ea7KECG1qIuuf_tdGDp9BMfByn2EK4xnjufQm3sObG3DIXpqFLiX6YrjpJe_WYnxyzR3ig1L73A6R0MdDlMm48e2F3cTYB08IOvikuepf3WVsbfukzhdIz18B9amYCyJnTYOJZ6wAPmatdR9ie3QbsAojdqNk1MP-6tjletRbqK_bhbq_Nr2P6XEKB3NbpXwmZ1ekpybey-Y6oGGmaITXzZWUQ6o_p0moM6vkvE"/>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-1">Cuaderno 20 alumnos</h3>
+<p class="text-slate-500 text-sm mb-4">Registro completo de prácticas y teoría para grupos reducidos.</p>
+<div class="mt-auto w-full">
+<div class="flex items-center justify-center gap-2 mb-4">
+<span class="text-2xl font-black text-slate-900">9.99€</span>
+<span class="text-xs text-slate-400 font-medium">IVA incluido</span>
+</div>
+<button class="w-full bg-[#FF9900] hover:bg-[#E68A00] text-slate-900 font-bold py-3 rounded-lg flex items-center justify-center gap-2 transition-all">
+<span class="material-symbols-outlined">shopping_cart</span>
+                                    Comprar en Amazon
+                                </button>
+<p class="mt-2 text-[10px] text-slate-400 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-xs">lock</span>
+                                    Compra segura en Amazon
+                                </p>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col items-center text-center">
+<div class="w-48 h-64 bg-slate-100 rounded-sm mb-6 book-shadow relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-pink-200 to-primary/20 flex flex-col items-center justify-center p-4">
+<span class="material-symbols-outlined text-5xl text-primary/40 mb-2">water_drop</span>
+<p class="text-[10px] font-bold text-primary uppercase tracking-tighter">Cuaderno de Seguimiento</p>
+<p class="text-sm font-extrabold text-slate-800 leading-tight mt-1">PERFUMERÍA Y COSMÉTICA</p>
+<div class="mt-4 bg-primary text-white text-[10px] px-2 py-0.5 rounded-full">30 ALUMNOS</div>
+</div>
+<img alt="Cover" class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-multiply" data-alt="Abstract pink cosmetic texture with golden highlights for book cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3PXFjprgsS34GmLRB7lR8_0RIFVVRCCv1StPN6JRl-y04-_eVbr6mBZcY6ikDF0KFJ3GbAsSNvMEqeqFWW6FnnW2YNZcmE4MC47masAdVyi2kUfcCW38mAM6CGUZhu6ypMCmTKO_0V4Qdj20bIYZskwDo3Xo90BMCA8ulS409RDnCscn1bRX8J-uTrdnOa2itvmODotrQ1DZjgjrC5gfRTy7tmXnVJ-ombeYecmqkJONdVI9iaNSmiy1GmUrDDKIVxjOqbMRgS7M"/>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-1">Cuaderno 30 alumnos</h3>
+<p class="text-slate-500 text-sm mb-4">Capacidad ampliada para grupos estándar de formación profesional.</p>
+<div class="mt-auto w-full">
+<div class="flex items-center justify-center gap-2 mb-4">
+<span class="text-2xl font-black text-slate-900">12.99€</span>
+<span class="text-xs text-slate-400 font-medium">IVA incluido</span>
+</div>
+<button class="w-full bg-[#FF9900] hover:bg-[#E68A00] text-slate-900 font-bold py-3 rounded-lg flex items-center justify-center gap-2 transition-all">
+<span class="material-symbols-outlined">shopping_cart</span>
+                                    Comprar en Amazon
+                                </button>
+<p class="mt-2 text-[10px] text-slate-400 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-xs">lock</span>
+                                    Compra segura en Amazon
+                                </p>
+</div>
+</div>
+<!-- Empty/Soon State -->
+<div class="bg-slate-50/50 rounded-xl p-6 border-2 border-dashed border-slate-200 flex flex-col items-center justify-center text-center opacity-60">
+<span class="material-symbols-outlined text-4xl text-slate-300 mb-2">pending</span>
+<h3 class="text-lg font-bold text-slate-400">Versión Digital</h3>
+<p class="text-slate-400 text-sm">Próximamente disponible en Kindle</p>
+</div>
+</div>
+</section>
+<!-- Module 2: Maquillaje -->
+<section>
+<div class="flex items-center gap-4 mb-8 border-l-4 border-primary pl-4">
+<h2 class="text-2xl md:text-3xl font-bold text-slate-900">Maquillaje</h2>
+<span class="bg-slate-200 text-slate-600 text-[10px] font-bold px-2 py-0.5 rounded tracking-widest uppercase">MÓDULO 02</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Product Card 3 -->
+<div class="bg-white rounded-xl p-6 shadow-sm border border-slate-100 flex flex-col items-center text-center">
+<div class="w-48 h-64 bg-slate-100 rounded-sm mb-6 book-shadow relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-indigo-100 to-indigo-200 flex flex-col items-center justify-center p-4">
+<span class="material-symbols-outlined text-5xl text-indigo-400/40 mb-2">brush</span>
+<p class="text-[10px] font-bold text-indigo-600 uppercase tracking-tighter">Cuaderno de Seguimiento</p>
+<p class="text-sm font-extrabold text-slate-800 leading-tight mt-1">MAQUILLAJE SOCIAL Y CINE</p>
+<div class="mt-4 bg-indigo-600 text-white text-[10px] px-2 py-0.5 rounded-full">25 ALUMNOS</div>
+</div>
+<img alt="Cover" class="absolute inset-0 w-full h-full object-cover opacity-20 mix-blend-multiply" data-alt="Colorful makeup palette brush strokes abstract pattern" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwsRHGs-nRjllR6gcbl6z5DIyoM0r0sllZolKqf7jv3JD8kCoo06hSt-sEsYE_oNfAwQ2j2bgNDiKmf-SMX3o4MI9kAET8X9k3biT2gr_9Zd0aMlwAk60glZDnAohRqGZOwR8iHH4OM9WYX70aQwCTjJr_PAsQ4Cl9xSEuUAQuCBcy9tvT42KCzOFZBG2U2XQCx5RkxCPZf-Ux1gDDrXYrf_Dcoa3DoXpZYwUofKvaLEK3eoUGN5yjsGY2diuw36E8aECx4gWxt9g"/>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-1">Cuaderno 25 alumnos</h3>
+<p class="text-slate-500 text-sm mb-4">Especializado en técnicas de visagismo y aplicación de color.</p>
+<div class="mt-auto w-full">
+<div class="flex items-center justify-center gap-2 mb-4">
+<span class="text-2xl font-black text-slate-900">10.50€</span>
+<span class="text-xs text-slate-400 font-medium">IVA incluido</span>
+</div>
+<button class="w-full bg-[#FF9900] hover:bg-[#E68A00] text-slate-900 font-bold py-3 rounded-lg flex items-center justify-center gap-2 transition-all">
+<span class="material-symbols-outlined">shopping_cart</span>
+                                    Comprar en Amazon
+                                </button>
+<p class="mt-2 text-[10px] text-slate-400 flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-xs">lock</span>
+                                    Compra segura en Amazon
+                                </p>
+</div>
+</div>
+<!-- Info Card -->
+<div class="lg:col-span-2 bg-gradient-to-r from-primary to-primary/80 rounded-xl p-8 text-white flex flex-col justify-center">
+<h3 class="text-2xl font-bold mb-4">¿Necesitas un pedido para todo el centro?</h3>
+<p class="text-white/90 mb-6 leading-relaxed max-w-lg">
+                                Ofrecemos descuentos especiales para centros de formación profesional y compras por volumen. Contacta con nuestro departamento comercial para obtener un presupuesto personalizado.
+                            </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-white text-primary px-6 py-2.5 rounded-lg font-bold hover:bg-slate-100 transition-colors">
+                                    Solicitar Presupuesto
+                                </button>
+<button class="border border-white/30 text-white px-6 py-2.5 rounded-lg font-bold hover:bg-white/10 transition-colors">
+                                    Ver Catálogo Completo
+                                </button>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-white border-t border-slate-100 py-12 px-6 md:px-20 mt-20">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+<div>
+<div class="flex items-center gap-3 text-primary mb-4">
+<span class="material-symbols-outlined text-2xl font-bold">menu_book</span>
+<h2 class="text-slate-900 text-lg font-extrabold tracking-tight">Ediciones FP</h2>
+</div>
+<p class="text-slate-500 text-sm max-w-sm">
+                        La editorial líder en materiales de seguimiento para Ciclos de Formación Profesional. Calidad garantizada para el aula moderna.
+                    </p>
+</div>
+<div class="flex gap-8">
+<div class="flex flex-col gap-2">
+<span class="text-slate-900 font-bold text-sm">Legal</span>
+<a class="text-slate-500 text-xs hover:text-primary" href="#">Aviso Legal</a>
+<a class="text-slate-500 text-xs hover:text-primary" href="#">Privacidad</a>
+<a class="text-slate-500 text-xs hover:text-primary" href="#">Cookies</a>
+</div>
+<div class="flex flex-col gap-2">
+<span class="text-slate-900 font-bold text-sm">Ayuda</span>
+<a class="text-slate-500 text-xs hover:text-primary" href="#">Preguntas frecuentes</a>
+<a class="text-slate-500 text-xs hover:text-primary" href="#">Soporte</a>
+<a class="text-slate-500 text-xs hover:text-primary" href="#">Envíos</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-slate-50 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-400 text-[10px] uppercase font-bold tracking-widest">© 2024 Ediciones FP - Todos los derechos reservados</p>
+<div class="flex items-center gap-6 opacity-40 grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default">
+<span class="text-xs font-bold text-slate-900">Partner oficial de:</span>
+<img alt="Amazon Logo" class="h-4" data-alt="Official Amazon logo in black" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAi1SJ8F4-VUfzKrMGcnIdLekqnIqZNxAzZpLgNHPMghHpZ4RGGbUKawHGB2h1OaB5G2zVhgfY3af004v-qlASgVmj4_Q9PdF5u2h4QQZS1J7akV0V2Racv8NXd5fd1j56D-UWswearvchI5CsoRM0rRO2uzxyT6ETXFkQrm5XR4ow5hTxrND_fbdIjceHODwgLkudWSUeEXGDmzI-hzbjpobTlB3Vg72XYtX5ONvC7TIal0TS5YWF_4yKMyjAntp1qvaU70R3SsfU"/>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
