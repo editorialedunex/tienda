@@ -1,0 +1,226 @@
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Editorial Edunex - Catálogo de Cuadernos FP Grado Medio</title>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "primary-hover": "#0d44b5",
+                        "accent": "#1152d4",
+                        "background-light": "#ffffff",
+                        "slate-custom": "#64748b",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "2xl": "1rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style type="text/tailwindcss">
+        body {
+            font-family: 'Lexend', sans-serif;
+            @apply bg-white;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .nav-link {
+            @apply relative text-sm font-medium text-slate-600 hover:text-primary transition-colors py-2 px-1;
+        }
+        .nav-link-active {
+            @apply text-primary font-semibold;
+        }
+        .nav-link-active::after {
+            content: '';
+            @apply absolute bottom-[-4px] left-0 w-full h-0.5 bg-primary rounded-full;
+        }
+        .icon-section-admin {
+            background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+        }
+        .icon-section-estetica {
+            background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%);
+        }
+        .card-shadow {
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+        }
+    </style>
+</head>
+<body class="text-slate-900 min-h-screen font-display antialiased bg-white">
+<div class="relative flex flex-col min-h-screen w-full">
+<header class="bg-white border-b border-slate-100 sticky top-0 z-50">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20 relative">
+<div class="flex items-center gap-2 shrink-0 z-10">
+<a class="flex items-center gap-2" href="index.html">
+<div class="text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-slate-900">Editorial Edunex</span>
+</a>
+</div>
+<nav class="hidden md:flex items-center justify-center gap-8 absolute inset-x-0 mx-auto w-fit">
+<a class="nav-link" href="index.html">Inicio</a>
+<a class="nav-link" href="en-creacion.html">Grado Básico</a>
+<a class="nav-link nav-link-active" href="grado-medio.html">Grado Medio</a>
+<a class="nav-link" href="en-creacion.html">Grado Superior</a>
+</nav>
+<div class="hidden md:flex items-center shrink-0 z-10">
+<a class="bg-primary text-white px-6 py-2.5 rounded-lg text-sm font-bold hover:bg-primary-hover transition-all shadow-sm" href="contacto.html">Contacto</a>
+</div>
+<div class="md:hidden">
+<button class="p-2 text-slate-900">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-16">
+<nav class="flex items-center gap-2 text-sm text-slate-400 mb-10">
+<a class="hover:text-primary flex items-center gap-1 transition-colors" href="index.html">Inicio</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-slate-600 font-medium">Grado Medio</span>
+</nav>
+<div class="mb-14">
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-slate-900 mb-8 tracking-tight leading-[1.15]">
+                Catálogo de Cuadernos: <br class="hidden md:block"/><span class="text-primary">FP Grado Medio</span>
+</h1>
+<p class="text-lg md:text-xl text-slate-500 max-w-3xl leading-relaxed">
+                Herramientas profesionales de evaluación diseñadas específicamente para optimizar el seguimiento del aprendizaje. Nuestros cuadernos facilitan la labor docente y garantizan una evaluación objetiva y estructurada.
+            </p>
+</div>
+<div class="flex justify-center mb-20">
+<div class="w-full max-w-md bg-white p-1 rounded-xl card-shadow border border-slate-200">
+<div class="relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-xl">search</span>
+<input class="w-full pl-12 pr-4 py-3 bg-white border-none rounded-lg focus:ring-0 transition-all text-sm placeholder:text-slate-400" placeholder="Buscar cuadernos por especialidad..." type="text"/>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="group flex flex-col sm:flex-row bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden h-full">
+<div class="sm:w-[160px] shrink-0 icon-section-admin flex items-center justify-center border-b sm:border-b-0 sm:border-r border-slate-100 py-10 sm:py-0">
+<div class="bg-white/60 p-5 rounded-2xl backdrop-blur-sm shadow-inner">
+<span class="material-symbols-outlined text-5xl text-emerald-700 transition-transform group-hover:scale-110 duration-500">account_balance</span>
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<div class="flex-grow">
+<div class="flex items-center mb-5">
+<span class="px-2.5 py-0.5 bg-emerald-50 text-emerald-700 text-[10px] font-bold uppercase rounded-md tracking-wider border border-emerald-100">Administración y Gestión</span>
+</div>
+<h3 class="text-2xl font-bold text-slate-900 mb-4 leading-tight group-hover:text-primary transition-colors">Técnico en Gestión Administrativa</h3>
+<p class="text-slate-500 leading-relaxed text-sm mb-8">
+                            Accede a la colección completa de cuadernos de evaluación para todos los módulos del ciclo de Gestión Administrativa.
+                        </p>
+</div>
+<div class="mt-auto">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white text-sm font-bold rounded-lg group/btn hover:bg-primary-hover transition-all w-full sm:w-auto shadow-sm" href="gestion-administrativa.html">
+                            Ver Cuadernos
+                            <span class="material-symbols-outlined text-lg transition-transform group-hover/btn:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<div class="group flex flex-col sm:flex-row bg-white rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden h-full">
+<div class="sm:w-[160px] shrink-0 icon-section-estetica flex items-center justify-center border-b sm:border-b-0 sm:border-r border-slate-100 py-10 sm:py-0">
+<div class="bg-white/60 p-5 rounded-2xl backdrop-blur-sm shadow-inner">
+<span class="material-symbols-outlined text-5xl text-rose-700 transition-transform group-hover:scale-110 duration-500">spa</span>
+</div>
+</div>
+<div class="p-8 flex flex-col flex-grow">
+<div class="flex-grow">
+<div class="flex items-center mb-5">
+<span class="px-2.5 py-0.5 bg-rose-50 text-rose-700 text-[10px] font-bold uppercase rounded-md tracking-wider border border-rose-100">Imagen Personal</span>
+</div>
+<h3 class="text-2xl font-bold text-slate-900 mb-4 leading-tight group-hover:text-primary transition-colors">Técnico en Estética y Belleza</h3>
+<p class="text-slate-500 leading-relaxed text-sm mb-8">
+                            Cuadernos especializados para la evaluación técnica de tratamientos de belleza, estética y normativa de higiene.
+                        </p>
+</div>
+<div class="mt-auto">
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-primary text-white text-sm font-bold rounded-lg group/btn hover:bg-primary-hover transition-all w-full sm:w-auto shadow-sm" href="estetica-belleza.html">
+                            Ver Cuadernos
+                            <span class="material-symbols-outlined text-lg transition-transform group-hover/btn:translate-x-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="mt-24 p-12 rounded-2xl bg-slate-50 border border-slate-200 text-center shadow-sm max-w-4xl mx-auto">
+<h4 class="text-xl font-bold text-slate-900 mb-4 uppercase tracking-wider">¿Buscas otra especialidad?</h4>
+<p class="text-slate-500 mb-8 max-w-md mx-auto leading-relaxed">Estamos ampliando nuestro catálogo para cubrir todos los títulos de Grado Medio próximamente.</p>
+<a class="inline-block px-8 py-3 bg-white border-2 border-primary text-primary font-bold rounded-lg hover:bg-primary hover:text-white transition-all shadow-sm" href="contacto.html">Contáctanos</a>
+</div>
+</main>
+<footer class="bg-white border-t border-slate-100 text-slate-600">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-10">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 border-b border-slate-100 pb-12">
+<div class="col-span-1">
+<div class="flex items-center gap-2 mb-6">
+<div class="text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<h4 class="text-xl font-bold tracking-tight text-slate-900">Editorial Edunex</h4>
+</div>
+<p class="text-slate-500 text-sm leading-relaxed mb-8">
+                        Líderes en recursos didácticos y herramientas de evaluación avanzada para Formación Profesional.
+                    </p>
+<div class="flex items-center gap-4">
+<a class="w-10 h-10 rounded-full bg-slate-50 border border-slate-100 flex items-center justify-center text-slate-400 hover:text-primary hover:bg-white hover:border-primary transition-all duration-300" href="https://www.instagram.com/editorial.edunex/" target="_blank">
+<svg class="h-5 w-5 fill-current" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h5 class="font-bold text-xs tracking-[0.15em] uppercase mb-8 text-slate-900">COLECCIONES</h5>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary transition-colors" href="en-creacion.html">Grado Básico</a></li>
+<li><a class="text-primary font-bold underline underline-offset-4 decoration-2" href="grado-medio.html">Grado Medio</a></li>
+<li><a class="hover:text-primary transition-colors" href="en-creacion.html">Grado Superior</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold text-xs tracking-[0.15em] uppercase mb-8 text-slate-900">SOPORTE</h5>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary transition-colors" href="politicas.html">Envíos Amazon</a></li>
+<li><a class="hover:text-primary transition-colors" href="politicas.html">Políticas Legales</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-bold text-xs tracking-[0.15em] uppercase mb-8 text-slate-900">CONTACTO</h5>
+<div class="flex flex-col gap-4">
+<a class="text-slate-600 hover:text-primary transition-colors text-sm font-medium" href="mailto:editorial.edunex@gmail.com">editorial.edunex@gmail.com</a>
+</div>
+</div>
+</div>
+<div class="pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="text-[11px] text-slate-400">
+                    © 2024 Editorial Edunex. Todos los derechos reservados.
+                </div>
+<div class="flex gap-8 text-[11px] text-slate-400">
+<a class="hover:text-primary transition-colors" href="politicas.html">Aviso Legal</a>
+<a class="hover:text-primary transition-colors" href="politicas.html">Privacidad</a>
+<a class="hover:text-primary transition-colors" href="politicas.html">Cookies</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
