@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Solicitud de Personalización - Editorial Edunex</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1152d4",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Lexend", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Lexend', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-16">
+<div class="flex items-center gap-2 flex-shrink-0">
+<div class="text-primary flex items-center">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<span class="text-xl font-bold tracking-tight whitespace-nowrap">
+<span class="text-black dark:text-white">Editorial</span> <span class="text-primary">Edunex</span>
+</span>
+</div>
+<nav class="hidden md:flex items-center justify-center space-x-8 absolute left-1/2 -translate-x-1/2">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Inicio</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Grado Básico</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Grado Medio</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Grado Superior</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="bg-primary text-white px-5 py-2 rounded-lg text-sm font-bold hover:bg-primary/90 transition-all shadow-md shadow-primary/20">
+                    Contacto
+                </button>
+</div>
+</div>
+</div>
+</header>
+<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="max-w-3xl mb-12">
+<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white mb-4">
+            Solicita tu Cuaderno Personalizado
+        </h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+            Materiales exclusivos para docentes de FP, adaptados rigurosamente a los Resultados de Aprendizaje (RA) y Criterios de Evaluación (CE) oficiales de cada módulo.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div class="space-y-4">
+<div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col items-start gap-4">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<h3 class="text-lg font-bold">Email Directo</h3>
+<p class="text-slate-500 text-sm mb-4">editorial.edunex@gmail.com</p>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline" href="mailto:editorial.edunex@gmail.com">
+                        Escribir ahora <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm flex flex-col items-start gap-4">
+<div class="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">account_circle</span>
+</div>
+<div>
+<h3 class="text-lg font-bold">Instagram</h3>
+<p class="text-slate-500 text-sm mb-4">@editorial.edunex</p>
+<a class="inline-flex items-center gap-2 text-sm font-bold text-primary hover:underline" href="#">
+                        Ver perfil <span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+<div class="relative overflow-hidden rounded-xl bg-primary p-6 text-white h-48 flex flex-col justify-end">
+<div class="absolute top-0 right-0 -mr-8 -mt-8 opacity-20">
+<span class="material-symbols-outlined text-[120px]">description</span>
+</div>
+<p class="text-xs uppercase tracking-widest font-bold opacity-80 mb-1">Calidad Garantizada</p>
+<h4 class="text-xl font-bold leading-tight">Certificación de contenidos oficiales</h4>
+</div>
+</div>
+<div class="lg:col-span-2">
+<div class="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 shadow-xl p-8">
+<div class="mb-8">
+<h2 class="text-2xl font-bold text-slate-900 dark:text-white">Formulario de Solicitud</h2>
+<p class="text-slate-500 dark:text-slate-400 mt-1">Completa los detalles de tu módulo y nos pondremos en contacto contigo.</p>
+</div>
+<form action="#" class="grid grid-cols-1 md:grid-cols-2 gap-6" method="POST">
+<div class="col-span-1">
+<label class="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Nombre completo</label>
+<input class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all" placeholder="Introduce tu nombre y apellidos" type="text"/>
+</div>
+<div class="col-span-1">
+<label class="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Correo electrónico</label>
+<input class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all" placeholder="ejemplo@centro.es" type="email"/>
+</div>
+<div class="col-span-1">
+<label class="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Ciclo de Formación Profesional</label>
+<select class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all appearance-none">
+<option>Grado Básico</option>
+<option>Grado Medio</option>
+<option>Grado Superior</option>
+<option>Curso de Especialización</option>
+</select>
+</div>
+<div class="col-span-1">
+<label class="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Nombre del Módulo específico</label>
+<input class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all" placeholder="Ej: Redes Locales" type="text"/>
+</div>
+<div class="col-span-2">
+<label class="block text-sm font-semibold text-slate-700 dark:text-slate-300 mb-2">Mensaje (Opcional)</label>
+<textarea class="w-full px-4 py-3 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:ring-2 focus:ring-primary/20 focus:border-primary transition-all" placeholder="Indica detalles adicionales sobre tu grupo o necesidades específicas..." rows="4"></textarea>
+</div>
+<div class="col-span-2">
+<button class="w-full bg-primary text-white py-4 rounded-lg font-bold text-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/30 flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined">send</span>
+                            Enviar Solicitud
+                        </button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 mt-24">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="space-y-6">
+<div class="flex items-center gap-2">
+<div class="text-primary flex items-center">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<span class="text-xl font-bold tracking-tight whitespace-nowrap">
+<span class="text-black dark:text-white">Editorial</span> <span class="text-primary">Edunex</span>
+</span>
+</div>
+<p class="text-sm text-slate-500 leading-relaxed max-w-xs">Impulsando la excelencia en la Formación Profesional con materiales educativos de alta precisión y adaptados a la normativa.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-slate-200 dark:border-slate-800 flex items-center justify-center text-slate-400 hover:text-primary hover:border-primary transition-all" href="#">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-wider mb-6 text-slate-900 dark:text-white">Colecciones</h4>
+<ul class="space-y-3">
+<li><a class="text-sm text-slate-500 hover:text-primary transition-colors" href="#">Grado Básico</a></li>
+<li><a class="text-sm text-slate-500 hover:text-primary transition-colors" href="#">Grado Medio</a></li>
+<li><a class="text-sm text-slate-500 hover:text-primary transition-colors" href="#">Grado Superior</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-wider mb-6 text-slate-900 dark:text-white">Soporte</h4>
+<ul class="space-y-3">
+<li><a class="text-sm text-slate-500 hover:text-primary transition-colors" href="#">Envíos Amazon</a></li>
+<li><a class="text-sm text-slate-500 hover:text-primary transition-colors" href="#">Políticas Legales</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-sm font-bold uppercase tracking-wider mb-6 text-slate-900 dark:text-white">Contacto</h4>
+<ul class="space-y-4">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary text-xl">email</span>
+<a class="text-sm text-slate-500 hover:text-primary transition-colors" href="mailto:editorial.edunex@gmail.com">editorial.edunex@gmail.com</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-slate-100 dark:border-slate-800 mt-12 pt-8">
+<div class="flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-slate-400">© 2025 Editorial Edunex. Todos los derechos reservados.</p>
+<div class="flex gap-6">
+<a class="text-xs text-slate-400 hover:text-primary transition-colors" href="#">Aviso Legal</a>
+<a class="text-xs text-slate-400 hover:text-primary transition-colors" href="#">Privacidad</a>
+<a class="text-xs text-slate-400 hover:text-primary transition-colors" href="#">Cookies</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
